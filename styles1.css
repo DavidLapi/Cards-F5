@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #95FF83;
+}
+
+header {
+    background-color: rgb(20, 20, 50);
+    color: rgb(255, 255, 255);
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    &:hover {
+        color: rgb(255, 255, 0);
+    }
+}
+
+main {
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Diseno de la card */
+.card {
+    background-color: #13FF00;
+    border-radius: 12px;
+    padding: 1.75rem;
+    width: 280px;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+.card figure {
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card figcaption {
+    max-height: 0.70rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card section {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card span {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Diseno de la card list*/
+.card_list {
+    list-style: none;
+    line-height: 5rem;
+    margin: 10px 40px;
+}
+
+.card_list li {
+    border: 4px dashed rgb(255, 0, 255);
+    background-color: rgb(0, 127, 255);
+    display: inline-block;
+    margin: 20px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+}
+
+.card_list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    &:hover {
+        color: rgb(255, 255, 0);
+    }
+}
